@@ -8,11 +8,12 @@ body {
     max-width: 419px; /* Set the maximum width */
     margin: 0 auto; /* Center the content */
     position: relative;
-    z-index: 1; /* Make sure content is above the shadows */
+    z-index: -1; /* Make sure content is above the shadows */
     box-shadow: 10px 0 15px -5px rgba(0, 0, 0, 0.5), -10px 0 15px -5px rgba(0, 0, 0, 0.5);
   }
   
   .image-placeholder {
+    z-index: -1;
     width: 100%;
     height: auto;
     max-width: 419px; /* Set the max-width for the image */
@@ -35,7 +36,7 @@ body {
   }
   
   .navbar {
-    z-index: 2;
+    z-index: 5;
     display: flex;
     justify-content: space-around;
     background-color: #333;
@@ -48,6 +49,7 @@ body {
   }
   
   .navbar a {
+    z-index: 5;
     color: #fff;
     text-decoration: none;
   }
