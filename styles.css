@@ -46,4 +46,10 @@ body {
     color: #fff;
     text-decoration: none;
   }
-  
+  p{
+    line-height: 2;
+  }
+  .names{
+    font-size: 25px;
+    font-weight: 800;
+  }
