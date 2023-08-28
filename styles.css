@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    max-width: 419px; /* Set the maximum width */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .image-placeholder {
+    width: 100%;
+    height: auto;
+    max-width: 419px; /* Set the max-width for the image */
+  }
+  
+  .web-section {
+    margin-top: 20px; /* Add space below the image */
+    /* Add additional styling for your web section */
+    text-align: center;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 419px; /* Set the width to match the image width */
+    left: 50%; /* Move to the center horizontally */
+    transform: translateX(-50%); /* Center using transform */
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
