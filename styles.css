@@ -5,6 +5,7 @@ body {
   }
   
   .content {
+    height: 100vh;
     max-width: 419px; /* Set the maximum width */
     margin: 0 auto; /* Center the content */
     position: relative;
@@ -15,10 +16,17 @@ body {
   .image-placeholder {
     z-index: -1;
     width: 100%;
-    height: auto;
+    height: 100%;
     max-width: 419px; /* Set the max-width for the image */
   }
   
+  .image-placeholder2 {
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    max-width: 419px; /* Set the max-width for the image */
+  }
+
   .web-section {
     margin-top: 20px; /* Add space below the image */
     /* Add additional styling for your web section */
